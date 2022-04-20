@@ -123,7 +123,7 @@ class _Counter extends StatelessWidget {
                         print(inputText);
                         store.dispatch(SetTextAction(text: inputText));
                       },
-                      child: Text('сюда ↓')),
+                      child: Text('сюда ↓ ')),
                 ],
               ),
               Padding(padding: EdgeInsets.only(top: 20)),
