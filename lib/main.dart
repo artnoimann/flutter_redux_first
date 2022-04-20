@@ -98,7 +98,6 @@ class _Counter extends StatelessWidget {
                   Container(
                     width: 200,
                     child: TextFormField(
-                      // controller: _inputTextController,
                       decoration: InputDecoration(
                           labelText: 'Введи меня',
                           enabledBorder: OutlineInputBorder(
@@ -123,7 +122,7 @@ class _Counter extends StatelessWidget {
                         print(inputText);
                         store.dispatch(SetTextAction(text: inputText));
                       },
-                      child: Text('сюда ↓ ')),
+                      child: Text('сюда ↓')),
                 ],
               ),
               Padding(padding: EdgeInsets.only(top: 20)),
