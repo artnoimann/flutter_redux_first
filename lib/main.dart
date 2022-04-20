@@ -79,7 +79,7 @@ class _Counter extends StatelessWidget {
               ),
               Padding(padding: EdgeInsets.only(top: 50)),
               Text(
-                'You have pushed the button this many times and multiply or divide2:',
+                'You have pushed the button this many times and multiply or divide:',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 17),
               ),
